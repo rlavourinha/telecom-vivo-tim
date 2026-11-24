@@ -26,97 +26,133 @@ h1, h2, h3 { font-family:'Space Grotesk', Arial, sans-serif; }
 .capa .chip { font-size:28px; color:#16233A; background:#F2B872; padding:10px 22px; border-radius:24px; display:inline-block; font-weight:600; }
 .capa .roteiro { font-size:32px; line-height:1.5; color:#BFD0E6; }
 .olho { font-size:26px; line-height:1.2; color:#C2511F; font-weight:600; letter-spacing:2px; margin-bottom:10px; }
-.titulo { font-size:44px; line-height:1.12; font-weight:600; color:#16233A; margin-bottom:20px; }
+.titulo { font-size:40px; line-height:1.14; font-weight:600; color:#16233A; margin-bottom:20px; }
 .graf { width:1664px; height:700px; object-fit:contain; }
 .fonte { position:absolute; left:128px; bottom:52px; width:1664px; font-size:24px; line-height:1.2; color:#55607A; }
 .val { font-size:34px; color:#16233A; width:1664px; margin-top:16px; }
 .nota { font-size:28px; line-height:1.35; color:#55607A; margin-top:36px; }
+.res { font-size:27px; color:#16233A; width:1664px; margin-top:22px; border-collapse:collapse; }
+.res th { font-size:28px; padding:6px 10px 2px; }
+.res td { padding:9px 10px; border-top:1px solid #DDD9CF; }
+.res .sub td { font-size:22px; color:#55607A; border-top:none; padding:0 10px 6px; }
 
 </style></head><body>
 <div id="palco">
 <section id="capa" class="capa" data-transition="fade">
 <div>
-<p class="chip">v1.5 · 24/11/2026</p>
+<p class="chip">v2.3 · 24/11/2026</p>
 </div>
 <div>
 <h1>Telecom Brasil: Vivo e TIM</h1>
-<p class="sub">Receita, EBITDA, lucro, payout e valuation, com histórico e estimativas</p>
+<p class="sub">Minhas estimativas contra o mercado, em sete blocos</p>
 </div>
-<p class="roteiro">Receita móvel e total · EBITDA e margem · Lucro líquido · Payout, venda de ativos e Fistel · Valuation · Modelo contra as casas</p>
-<aside>Deck simples de Telecom. Histórico das planilhas de RI e da CVM; estimativas dos modelos de Vivo e TIM de 23/11/2026.</aside>
+<p class="roteiro">Setor contra IPCA e PIB · Receita · Margem EBITDA · Crescimento do EBITDA · Capex e arrendamento · Lucro · Payout · Fistel · Valuation</p>
+<aside>Histórico das planilhas de RI e da CVM; estimativas dos modelos de Vivo e TIM de 24/11/2026; casas: Itaú BBA, BBI, BTG, Santander e UBS.</aside>
 </section>
-<section id="receita" data-transition="fade">
-<p class="olho">1 · RECEITA</p>
-<h2 class="titulo">Serviço móvel cresce 6,5% na Vivo e 4,4% na TIM em 2026E; a estimativa leva a Vivo a 6,0% e a TIM a 4,0% até 2030</h2>
-<img class="graf" src="img/g1_receita.png" alt="Vivo e TIM: receita de serviço móvel e receita líquida total, em R$ bilhões, e crescimento anual, de 2015 a 2030 estimado">
-<p class="fonte">Fonte: planilhas de RI das companhias; estimativas dos modelos de 23/11/2026. TIM: serviço móvel = receita de serviços menos receita fixa.</p>
-<aside>Vivo: serviço móvel de 38,4 bi em 2025 para 40,9 bi em 2026E e 51,6 bi em 2030E. TIM: 24,5 bi em 2025, 25,6 bi em 2026E e 30,2 bi em 2030E. Receita líquida total: Vivo +7,3% em 2026E e +5,7% em 2027E; TIM +5,5% e +4,9%.</aside>
+<section id="setor" data-transition="fade">
+<p class="olho">ABERTURA · O SETOR CONTRA A INFLAÇÃO E O PIB NOMINAL</p>
+<h2 class="titulo">Desde 2009 a receita móvel do setor cresceu 4,4% ao ano, contra IPCA de 5,7% e PIB nominal de 8,7%; de 2013 a 2021 foi 1,7% e só desde 2023 ela volta a superar a inflação</h2>
+<img class="graf" src="img/v3_setor_macro.png" alt="Crescimento em 12 meses da receita de serviço móvel de Vivo, TIM, Claro e Oi somadas, do IPCA e do PIB nominal, de 2009 ao 3T26, e o índice das três séries com base 100 em 2009">
+<p class="fonte">Fonte: RI das companhias, América Móvil (Claro) e releases da Oi na CVM; IBGE (IPCA); Banco Central (PIB nominal em 12 meses, série 4382). Setor: serviço móvel de Vivo, TIM, Claro e Oi em 12 meses, com a Oi dos dois lados em 2022.</p>
+<aside>Mesma base dos slides 1 a 3 do deck Móvel Brasil. Receita de serviço móvel das quatro operadoras em 12 meses: 46,3 bi em 2009, 57,8 bi em 2012, 67,2 bi em 2021, 91,1 bi em 2025 e 95,4 bi nos 12 meses até o 3T26. Ao ano: 7,7% de 2009 a 2012, contra IPCA de 5,7% e PIB nominal de 13,0%; 1,7% de 2012 a 2021, contra 5,9% e 7,2%; 7,9% de 2021 a 2025, contra 5,7% e 9,0%; 6,4% nos 12 meses até o 3T26, contra 4,4% e 7,0%. Acima do IPCA de 2009 a 2012 e de 2023 em diante; acima do PIB nominal só em 2009 e 2024. Peso no PIB: 1,39% em 2009, 1,00% em 2015, 0,75% em 2021 e 0,71% no 3T26. O crescimento de 2022 em diante inclui o corte do ICMS de julho de 2022, que somou de 6% a 7% à receita líquida. A partir do 2T22 a receita da Oi está dentro das três compradoras.</aside>
 </section>
-<section id="exoi" data-transition="fade">
-<p class="olho">1A · SEM A OI E SEM O CORTE DE IMPOSTO</p>
-<h2 class="titulo">No 4T22 a TIM reportou +22,7% e a Vivo +13,6%; sem a Oi e sem o corte de imposto, +1,4% e -1,1%</h2>
-<img class="graf" src="img/g1a_exoi.png" alt="Vivo e TIM: crescimento do serviço móvel contra o mesmo trimestre do ano anterior, reportado, sem a Oi e sem a Oi e o corte de imposto, do 1T21 ao 3T26">
-<p class="fonte">Fonte: releases e ITR/DFP das companhias (CVM). Receita da Oi estimada pelos clientes recebidos; imposto pela relação entre receita bruta e líquida.</p>
-<aside>A entrada dos clientes da Oi (abril de 2022) e o corte do ICMS (segundo semestre de 2022) inflaram o crescimento reportado por quatro trimestres. Depois que os dois efeitos saem da base, o reportado e o ajustado voltam a andar juntos: no 3T26, Vivo +7,4% e TIM +4,0% reportados.</aside>
+<section id="rol" data-transition="fade">
+<p class="olho">1 · DESACELERAÇÃO DA RECEITA LÍQUIDA</p>
+<h2 class="titulo">Receita: na Vivo o ritmo trimestral segue perto de 7% e a desaceleração está na estimativa (5,7% de 2027E em diante); na TIM já veio, de 24,4% para 5,3%</h2>
+<img class="graf" src="img/v2_1_rol.png" alt="Crescimento da receita líquida de Vivo e TIM por trimestre, do 1T22 ao 3T26, e crescimento anual de 2019 a 2030 estimado, com a linha do modelo contra a faixa das casas">
+<p class="fonte">Fonte: planilhas de RI e modelos de Vivo e TIM de 24/11/2026. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS. O pico de 2022 e 2023 inclui os clientes da Oi e o corte de imposto.</p>
+<aside>Vivo: 12,1% no 1T23, entre 6,2% e 7,7% desde o 2T23 e 7,2% no 3T26. O modelo põe 7,3% em 2026E e 5,7% de 2027E a 2030E; fica dentro da faixa das casas até 2028E e acima em 2029E e 2030E (casas: 3,3% a 5,1% em 2030E). TIM: 24,4% no 3T22, 4,4% no 4T25 e 5,3% no 3T26. O modelo vai de 4,9% em 2027E a 4,1% em 2030E, acima da faixa das casas em todos os anos de 2027E em diante (4,1% a 4,7% em 2027E; 3,4% a 4,0% em 2030E).</aside>
 </section>
-<section id="ebitda" data-transition="fade">
-<p class="olho">2 · EBITDA E MARGEM</p>
-<h2 class="titulo">EBITDA recorrente cresce 6,6% na Vivo e 6,3% na TIM em 2026E, com margem de 40,5% e 51,1%</h2>
-<img class="graf" src="img/g2_ebitda.png" alt="Vivo e TIM: EBITDA reportado e recorrente em R$ bilhões, margem EBITDA e crescimento anual do recorrente, de 2015 a 2030 estimado">
-<p class="fonte">Fonte: planilhas de RI das companhias; estimativas dos modelos de 23/11/2026. O reportado da Vivo inclui venda de ativos (cobre e imóveis) de 2024 a 2028E.</p>
-<aside>Vivo: EBITDA recorrente de 24,3 bi em 2025, 25,9 bi em 2026E e 27,6 bi em 2027E; o reportado fica acima pela venda de ativos (26,9 bi e 29,4 bi). TIM: 13,5 bi em 2025, 14,3 bi em 2026E e 15,2 bi em 2027E. O recorrente da TIM no modelo começa em 2019.</aside>
+<section id="margem" data-transition="fade">
+<p class="olho">2 · MARGEM EBITDA HOJE</p>
+<h2 class="titulo">Margem EBITDA em 12 meses: Vivo parada em 40,8% desde o 4T25, TIM em 51,0%; o modelo da Vivo fica abaixo de todas as casas (40,8% contra 41,2% a 42,1% em 2027E)</h2>
+<img class="graf" src="img/v2_2_margem.png" alt="Margem EBITDA recorrente de Vivo e TIM no trimestre e em 12 meses, do 1T22 ao 3T26, e margem anual de 2019 a 2030 estimado, com o modelo contra a faixa das casas">
+<p class="fonte">Fonte: planilhas de RI e modelos de 24/11/2026. EBITDA recorrente, sem venda de ativos. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS.</p>
+<aside>Vivo: 41,5% no 3T26 contra 41,8% no 3T25; em 12 meses, 40,0% no 3T25, 40,7% no 4T25 e 40,8% nos três trimestres de 2026. O modelo mantém 40,8% até 2030E; as casas vão de 41,1% a 41,5% em 2026E a 41,5% a 42,8% em 2030E. TIM: 52,4% no 3T26 contra 51,7% um ano antes; em 12 meses, 50,1% no 3T25 e 51,0% no 3T26. O modelo sobe a 52,5% em 2030E, dentro da faixa das casas (51,9% a 52,7%); em 2027E fica 0,1 p.p. abaixo do piso (51,5% contra 51,6%).</aside>
 </section>
-<section id="lucro" data-transition="fade">
-<p class="olho">3 · LUCRO LÍQUIDO</p>
-<h2 class="titulo">Lucro recorrente: Vivo de 6,6 bi em 2025 para 8,1 bi em 2027E; TIM de 4,2 bi para 4,8 bi, com 2026E parado em 4,1 bi</h2>
-<img class="graf" src="img/g3_lucro.png" alt="Vivo e TIM: lucro líquido reportado e recorrente em R$ bilhões e crescimento anual, de 2015 a 2030 estimado">
-<p class="fonte">Fonte: planilhas de RI e CVM (DFP); estimativas dos modelos de 23/11/2026. TIM: lucro reportado da CVM até 2025; o modelo não projeta o reportado.</p>
-<aside>Vivo: o lucro reportado estimado (7,4 bi em 2026E e 9,7 bi em 2027E) fica acima do recorrente pela venda de ativos. TIM: lucro recorrente de 4,1 bi em 2026E, contra 4,2 bi em 2025.</aside>
+<section id="ebitda-cresc" data-transition="fade">
+<p class="olho">3 · CRESCIMENTO DO EBITDA</p>
+<h2 class="titulo">EBITDA cresceu 6,5% ao ano na Vivo e 10,1% na TIM de 2021 a 2025; o modelo projeta 5,7% na Vivo e 4,2% na TIM em 2030E, acima da faixa das casas</h2>
+<img class="graf" src="img/v2_3_ebitda.png" alt="Crescimento anual do EBITDA recorrente de Vivo, de 2016 a 2030 estimado, e de TIM, de 2020 a 2030 estimado, com a faixa e a média das casas nos anos estimados">
+<p class="fonte">Fonte: planilhas de RI e modelos de 24/11/2026. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS. Vivo 2019: a adoção do IFRS 16 tira o aluguel do EBITDA. TIM 2022 e 2023: entrada dos clientes da Oi.</p>
+<aside>Vivo: 9,7% em 2025; o modelo projeta 6,6% em 2026E e 2027E e 5,7% de 2028E em diante. Fica abaixo das casas em 2026E (7,4% a 8,3%), dentro em 2027E e 2028E e acima em 2029E e 2030E (3,0% a 5,3% em 2030E). TIM: 6,9% em 2025; o modelo projeta 6,3%, 5,8%, 6,1%, 4,9% e 4,2%. Dentro da faixa em 2026E e 2027E e acima de 2028E em diante (4,2% a 4,7% em 2028E; 3,7% a 4,1% em 2030E).</aside>
 </section>
-<section id="payout" data-transition="fade">
-<p class="olho">4 · PAYOUT</p>
-<h2 class="titulo">As duas distribuem mais que o lucro em 2026E: Vivo 113% e TIM 134%; a estimativa volta para perto de 90% em 2030E</h2>
-<img class="graf" src="img/g4_payout.png" alt="Vivo e TIM: payout em caixa sobre o lucro, de 2010 a 2025, e estimativa de 2026 a 2030">
-<p class="fonte">Fonte: CVM (DFP, fluxo de caixa: dividendos, JCP, recompra e redução de capital sobre o lucro). Estimativas: distribuição sobre lucro recorrente, modelos de 23/11/2026 (Vivo) e 21/11/2026 (TIM).</p>
-<aside>Payout histórico é o que saiu do caixa no ano dividido pelo lucro do ano. Vivo: 86%, 95% e 95% em 2023-25; estimativa de 113%, 104%, 97%, 92% e 89% de 2026E a 2030E. TIM: 77%, 88% e 142% em 2023-25; estimativa de 134%, 103%, 98%, 93% e 88%.</aside>
+<section id="capex" data-transition="fade">
+<p class="olho">4 · CAPEX SOBRE A RECEITA, COM EMISSÃO DE ARRENDAMENTO</p>
+<h2 class="titulo">Capex cai para 14,5% da receita nas duas; com a emissão de arrendamento o investimento fica em 23,0% (Vivo) e 24,5% (TIM), acima das casas que abrem a linha</h2>
+<img class="graf" src="img/v2_4_capex.png" alt="Capex sobre a receita e capex mais emissão de arrendamento sobre a receita, de Vivo e TIM, de 2019 a 2030 estimado, com a faixa das casas para cada medida">
+<p class="fonte">Fonte: planilhas de RI, DFC da CVM e modelos de 24/11/2026. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS. Só Itaú BBA e Santander (Vivo) e Itaú BBA (TIM) projetam a emissão de arrendamento.</p>
+<aside>Vivo: capex de 15,9% da receita em 2025 para 14,5% de 2027E em diante, dentro da faixa das casas (13,1% a 14,6% em 2030E). Com a emissão de arrendamento, 22,1% em 2025 e 23,0% de 2027E em diante, contra 20,5% a 21,0% em 2027E e 19,2% a 20,5% em 2030E nas casas. TIM: capex de 17,1% em 2025 para 14,5% em 2030E, abaixo das casas (15,0% a 16,7%). Com a emissão, 27,2% em 2025 e 24,5% em 2030E, contra 23,0% do Itaú BBA.</aside>
 </section>
-<section id="ponte" data-transition="fade">
-<p class="olho">4A · A AJUDA DOS IMÓVEIS E DO FISTEL</p>
-<h2 class="titulo">Em 2026E a distribuição supera a geração de caixa sem Fistel: 8,1 bi contra 6,6 bi na Vivo e 5,5 bi contra 3,9 bi na TIM</h2>
-<img class="graf" src="img/g4a_ponte.png" alt="Vivo e TIM: geração de caixa sem Fistel, Fistel não pago, ganho com venda de ativos e distribuição aos acionistas, em R$ bilhões, de 2023 a 2030 estimado">
-<p class="fonte">Fonte: ITR/DFP das companhias e modelos. Vivo: de 2027E em diante o modelo assume o Fistel pago, e a barra laranja mostra o que deixaria de sair se a suspensão continuar. TIM: o modelo só abre a geração de caixa até 2026E.</p>
-<aside>Vivo: o Fistel não pago soma 1,6 bi em 2026E e a venda de cobre e imóveis 0,9 bi em 2026E, 1,8 bi em 2027E e 1,2 bi em 2028E. TIM: Fistel não pago de 0,9 bi em 2025 e 0,7 bi em 2026E; a geração de 2025 inclui 1,0 bi de emissão de ações e leilão de frações; não há venda de ativos no modelo.</aside>
+<section id="arrend" data-transition="fade">
+<p class="olho">4A · EMISSÃO DE ARRENDAMENTO × PAGAMENTO DE PRINCIPAL</p>
+<h2 class="titulo">A emissão de arrendamento supera o principal pago todo ano: o passivo sobe cerca de 1,5 bi por ano na Vivo e de 0,6 a 1,2 bi na TIM; o modelo emite mais que as casas</h2>
+<img class="graf" src="img/v2_4a_arrend.png" alt="Emissão de arrendamento e pagamento de principal de Vivo e TIM, em bilhões de reais, de 2019 a 2030 estimado, com a média e a faixa das casas nos anos estimados">
+<p class="fonte">Fonte: planilhas de RI, DFC da CVM e modelos de 24/11/2026. Casas com emissão: Itaú BBA e Santander (Vivo), Itaú BBA (TIM). Com principal: Itaú BBA, BTG (até 2028E) e Santander.</p>
+<aside>Vivo: emissão de 3,7 bi em 2025 e 5,7 bi em 2027E, contra 4,0 a 4,5 bi nas casas; principal pago de 3,3 bi em 2025 e 4,3 bi em 2027E, contra 3,7 a 4,0 bi. A diferença entre emissão e principal fica em 1,4 a 1,6 bi por ano de 2026E a 2030E. TIM: emissão de 2,7 bi em 2025 e 3,0 bi em 2027E, contra 2,2 bi do Itaú BBA; principal de 1,6 bi em 2025 e 2,0 bi em 2027E, contra 1,5 a 1,7 bi. A diferença cai de 1,2 bi em 2026E para 0,6 bi em 2030E. Vivo sem principal aberto antes de 2021 no modelo.</aside>
+</section>
+<section id="dacapex" data-transition="fade">
+<p class="olho">4B · D&amp;A × CAPEX</p>
+<h2 class="titulo">D&amp;A é 1,6 vez o capex em 2025 e 1,4 vez em 2030E; com a emissão de arrendamento, o investimento supera a D&amp;A desde 2025 na TIM e de 2027E na Vivo</h2>
+<img class="graf" src="img/v2_4b_da.png" alt="Depreciação e amortização, capex e capex mais emissão de arrendamento de Vivo e TIM, em bilhões de reais, de 2019 a 2030 estimado, com a faixa das casas para D&amp;A e capex e a razão D&amp;A sobre capex por ano">
+<p class="fonte">Fonte: planilhas de RI e modelos de 24/11/2026. D&amp;A inclui a depreciação do direito de uso (arrendamento) e a amortização de licenças. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS.</p>
+<aside>Vivo: D&amp;A de 14,9 bi em 2025 e 16,0 bi em 2030E (casas: 15,0 a 15,7 bi), contra capex de 9,5 bi e 11,6 bi (casas: 10,1 a 11,4 bi). D&amp;A sobre capex: 1,58 vez em 2025 e 1,38 em 2030E. Sobre capex mais emissão de arrendamento: 1,14 em 2025, 1,01 em 2026E, 0,95 em 2027E e 0,87 em 2030E. TIM: D&amp;A de 7,1 bi em 2025 e 7,0 bi em 2030E, dentro da faixa das casas; capex de 4,5 bi e 4,9 bi (casas: 5,0 a 5,5 bi). D&amp;A sobre capex: 1,56 e 1,43. Sobre capex mais emissão: 0,98 em 2025 e 0,85 em 2030E.</aside>
+</section>
+<section id="lucro-frente" data-transition="fade">
+<p class="olho">5 · LUCRO LÍQUIDO PARA FRENTE</p>
+<h2 class="titulo">Lucro recorrente: Vivo de 6,6 bi (2025) para 10,9 bi (2030E) e TIM de 4,2 bi para 6,5 bi; com venda de ativos, a Vivo fica dentro da faixa das casas até 2028E</h2>
+<img class="graf" src="img/v2_5_lucro.png" alt="Lucro líquido recorrente de Vivo e TIM, em bilhões de reais, de 2019 a 2030 estimado, com a faixa e a média das casas; na Vivo, também o lucro do modelo com venda de ativos">
+<p class="fonte">Fonte: planilhas de RI e modelos de 24/11/2026. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS. O lucro das casas para a Vivo inclui o ganho com venda de ativos de 2026E a 2028E.</p>
+<aside>Vivo, lucro recorrente do modelo: 7,1 bi em 2026E, 8,1 bi, 9,1 bi, 10,0 bi e 10,9 bi em 2030E. Com venda de ativos: 7,4 bi, 9,7 bi e 10,1 bi de 2026E a 2028E, dentro da faixa das casas (9,1 a 10,3 bi em 2027E); em 2029E e 2030E, 10,0 bi e 10,9 bi, abaixo da faixa (10,1 a 11,3 bi e 10,9 a 12,2 bi). TIM: 4,0 bi em 2026E, abaixo das casas (4,3 a 4,4 bi); 4,7 bi e 5,5 bi em 2027E e 2028E, dentro; 5,9 bi em 2029E e 6,5 bi em 2030E, dentro (5,4 a 5,9 bi e 5,8 a 6,7 bi).</aside>
+</section>
+<section id="payout-pot" data-transition="fade">
+<p class="olho">6 · PAYOUT DOS ÚLTIMOS ANOS × PAYOUT POTENCIAL</p>
+<h2 class="titulo">Payout de 2019 a 2025: Vivo pagou 107% com potencial de 134%; TIM pagou 71% com potencial de 78%. Em 2030E o modelo cai para 88% a 89%, abaixo das casas</h2>
+<img class="graf" src="img/v2_6_payout.png" alt="Payout pago em caixa de Vivo e TIM de 2015 a 2025, payout do modelo de 2026 a 2030 estimados, payout potencial pela geração de caixa sobre o lucro desde 2019 e faixa das casas">
+<p class="fonte">Fonte: CVM (DFP: dividendos, JCP, recompra e redução de capital pagos sobre o lucro) e modelos de 24/11/2026. Potencial = linha Geração Caixa / LL dos modelos. Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS.</p>
+<aside>Vivo: o potencial oscila com capital de giro e Fistel (209% em 2020, 19% em 2022, 227% em 2023) e fica em 103% em 2025. O modelo distribui 117% do lucro recorrente em 2026E, 104% em 2027E e 89% em 2030E. Sobre o lucro com venda de ativos, como nas casas: 112%, 88% e 87% de 2026E a 2028E, contra 98% a 109% das casas em 2027E; em 2030E, 89% contra 95% a 105%. TIM: pagou 142% em 2025, com potencial de 147%; o modelo distribui toda a geração de caixa, 135% em 2026E, 103% em 2027E e 88% em 2030E, contra 107% a 129% das casas em 2027E e 90% a 101% em 2030E.</aside>
+</section>
+<section id="fistel" data-transition="fade">
+<p class="olho">7 · FISTEL: IMPACTO NO LUCRO (DESPESA E RESULTADO FINANCEIRO)</p>
+<h2 class="titulo">Fistel não pago equivale a 14% a 17% do lucro: em 2026E, Vivo 850 mi de despesa e 717 mi de juros; TIM 540 mi e 468 mi. Os juros passam a despesa em 2028E</h2>
+<img class="graf" src="img/v2_7_fistel.png" alt="Fistel não pago de Vivo e TIM de 2020 a 2030 estimado: despesa do ano e juros sobre o passivo, em milhões de reais, e o peso da soma depois de imposto no lucro recorrente">
+<p class="fonte">Fonte: ITR/DFP e modelos. Vivo sem abertura antes de 2024. De 2027E em diante, suspensão mantida: despesa +4% a.a., juros = Selic sobre o principal. Passivo em 2027E: Itaú BBA 9,4 bi (Vivo) e 6,2 bi (TIM); BTG para em 7,7 bi e 5,4 bi.</p>
+<aside>A taxa do ano entra como despesa dentro do EBITDA e os juros sobre o passivo acumulado entram no resultado financeiro; nenhum dos dois sai do caixa enquanto a exigibilidade estiver suspensa. Vivo: passivo de 7,5 bi no 3T26; despesa de 853 mi e juros de 581 mi em 2025; peso de 14,3% do lucro recorrente em 2025 e 14,5% em 2026E. TIM: passivo de 5,1 bi no 3T26; despesa de 538 mi e juros de 404 mi em 2025; peso de 14,8% em 2025 e 16,5% em 2026E. Com a suspensão mantida, os juros superam a despesa em 2028E nas duas (Vivo 961 contra 919 mi; TIM 687 contra 584 mi). Principal da Vivo de 5,3 bi no 3T26 inferido do saldo e dos juros; o ITR não abre.</aside>
+</section>
+<section id="resumo" data-transition="fade">
+<p class="olho">MINHAS ESTIMATIVAS × MERCADO</p>
+<h2 class="titulo">Contra as casas: receita cresce mais no fim da década, margem da Vivo fica abaixo e o payout de 2030E é menor nas duas</h2>
+<table class="res">
+<tr><th style="width:28%; text-align:left"></th><th colspan="2" style="text-align:center">Vivo 2027E</th><th colspan="2" style="text-align:center">Vivo 2030E</th><th colspan="2" style="text-align:center">TIM 2027E</th><th colspan="2" style="text-align:center">TIM 2030E</th></tr>
+<tr class="sub"><td></td><td style="text-align:right">modelo</td><td style="text-align:right">casas</td><td style="text-align:right">modelo</td><td style="text-align:right">casas</td><td style="text-align:right">modelo</td><td style="text-align:right">casas</td><td style="text-align:right">modelo</td><td style="text-align:right">casas</td></tr>
+<tr><td>Crescimento da receita líquida (%)</td><td style="text-align:right; color:#55607A; font-weight:600">5,7</td><td style="text-align:right">5,4 a 6,5</td><td style="text-align:right; color:#1d6fb8; font-weight:600">5,7</td><td style="text-align:right">3,3 a 5,1</td><td style="text-align:right; color:#1d6fb8; font-weight:600">4,9</td><td style="text-align:right">4,1 a 4,7</td><td style="text-align:right; color:#1d6fb8; font-weight:600">4,1</td><td style="text-align:right">3,4 a 4,0</td></tr>
+<tr><td>Margem EBITDA recorrente (%)</td><td style="text-align:right; color:#C2511F; font-weight:600">40,8</td><td style="text-align:right">41,2 a 42,1</td><td style="text-align:right; color:#C2511F; font-weight:600">40,8</td><td style="text-align:right">41,5 a 42,8</td><td style="text-align:right; color:#C2511F; font-weight:600">51,5</td><td style="text-align:right">51,6 a 52,0</td><td style="text-align:right; color:#55607A; font-weight:600">52,5</td><td style="text-align:right">51,9 a 52,7</td></tr>
+<tr><td>Crescimento do EBITDA recorrente (%)</td><td style="text-align:right; color:#55607A; font-weight:600">6,6</td><td style="text-align:right">5,7 a 7,8</td><td style="text-align:right; color:#1d6fb8; font-weight:600">5,7</td><td style="text-align:right">3,0 a 5,3</td><td style="text-align:right; color:#55607A; font-weight:600">5,8</td><td style="text-align:right">4,5 a 6,5</td><td style="text-align:right; color:#1d6fb8; font-weight:600">4,2</td><td style="text-align:right">3,7 a 4,1</td></tr>
+<tr><td>Capex ÷ receita (%)</td><td style="text-align:right; color:#55607A; font-weight:600">14,5</td><td style="text-align:right">14,3 a 14,7</td><td style="text-align:right; color:#55607A; font-weight:600">14,5</td><td style="text-align:right">13,1 a 14,6</td><td style="text-align:right; color:#C2511F; font-weight:600">15,3</td><td style="text-align:right">15,5 a 15,9</td><td style="text-align:right; color:#C2511F; font-weight:600">14,5</td><td style="text-align:right">15,0 a 16,7</td></tr>
+<tr><td>D&amp;A (R$ bi)</td><td style="text-align:right; color:#55607A; font-weight:600">14,7</td><td style="text-align:right">14,2 a 15,6</td><td style="text-align:right; color:#1d6fb8; font-weight:600">16,0</td><td style="text-align:right">15,0 a 15,7</td><td style="text-align:right; color:#55607A; font-weight:600">7,1</td><td style="text-align:right">6,8 a 7,3</td><td style="text-align:right; color:#55607A; font-weight:600">7,0</td><td style="text-align:right">6,8 a 7,4</td></tr>
+<tr><td>Lucro líquido (R$ bi)</td><td style="text-align:right; color:#55607A; font-weight:600">9,7</td><td style="text-align:right">9,1 a 10,3</td><td style="text-align:right; color:#C2511F; font-weight:600">10,9</td><td style="text-align:right">10,9 a 12,2</td><td style="text-align:right; color:#55607A; font-weight:600">4,7</td><td style="text-align:right">4,6 a 5,0</td><td style="text-align:right; color:#55607A; font-weight:600">6,5</td><td style="text-align:right">5,8 a 6,7</td></tr>
+<tr><td>Payout (%)</td><td style="text-align:right; color:#C2511F; font-weight:600">88</td><td style="text-align:right">98 a 109</td><td style="text-align:right; color:#C2511F; font-weight:600">89</td><td style="text-align:right">95 a 105</td><td style="text-align:right; color:#C2511F; font-weight:600">103</td><td style="text-align:right">107 a 129</td><td style="text-align:right; color:#C2511F; font-weight:600">88</td><td style="text-align:right">90 a 101</td></tr>
+</table>
+<p class="nota"><span style="color:#C2511F; font-weight:600">Laranja</span>: modelo abaixo da faixa das casas. <span style="color:#1d6fb8; font-weight:600">Azul</span>: acima. Cinza: dentro. Lucro da Vivo com venda de ativos, como o das casas.</p>
+<p class="fonte">Casas: Itaú BBA, BBI, BTG, Santander e, na Vivo, UBS. Faixa = mínimo a máximo das casas que publicam a linha no ano.</p>
+<aside>Das 14 comparações de cada empresa, o modelo da Vivo fica abaixo da faixa em 5, dentro em 6 e acima em 3; o da TIM, abaixo em 5, dentro em 6 e acima em 3. Payout da Vivo sobre o lucro com venda de ativos, como nas casas. Custo de capital e crescimento na perpetuidade: Vivo 13,85% e 6,0% no modelo, contra 14,55% a 17,5% e 3,5% a 5,0% nas casas; TIM também 13,85% e 6,0%, contra 14,2% a 16,5% e 3,0% a 4,0%.</aside>
 </section>
 <section id="valuation" data-transition="fade">
-<p class="olho">5 · VALUATION</p>
-<h2 class="titulo">O Fistel decide o potencial: com metade paga, Vivo +4,0% e TIM +15,6%; se continuar sem ser pago, +14,1% e +24,2%</h2>
+<p class="olho">VALUATION</p>
+<h2 class="titulo">Com as mesmas premissas (Ke de 13,85% e crescimento de 6%), a TIM tem potencial de +22,5% e a Vivo de -6,0% sem Fistel; o Fistel não pago soma cerca de 7 reais por ação em cada uma</h2>
 <table class="val">
 <tr><th style="width:46%; text-align:left"></th><th style="width:27%; text-align:right">Vivo</th><th style="width:27%; text-align:right">TIM</th></tr>
 <tr><td>Preço no modelo (R$)</td><td style="text-align:right">35,42</td><td style="text-align:right">20,94</td></tr>
-<tr><td>Custo de capital próprio (Ke)</td><td style="text-align:right">13,85%</td><td style="text-align:right">15,0%</td></tr>
-<tr><td>Crescimento na perpetuidade</td><td style="text-align:right">6,0%</td><td style="text-align:right">4,0%</td></tr>
-<tr><td>Alvo dez/2026, sem Fistel (R$)</td><td style="text-align:right">33,70 (-6,1%)</td><td style="text-align:right">21,05 (-1,0%)</td></tr>
-<tr><td>Alvo se 50% do Fistel for pago (R$)</td><td style="text-align:right">37,34 (+4,0%)</td><td style="text-align:right">24,55 (+15,6%)</td></tr>
-<tr><td>Alvo se o Fistel continuar sem ser pago (R$)</td><td style="text-align:right">40,98 (+14,1%)</td><td style="text-align:right">26,38 (+24,2%)</td></tr>
-<tr><td>Retorno implícito no preço, sem Fistel</td><td style="text-align:right">13,2%</td><td style="text-align:right">14,9%</td></tr>
+<tr><td>Custo de capital próprio (Ke)</td><td style="text-align:right">13,85%</td><td style="text-align:right">13,85%</td></tr>
+<tr><td>Crescimento na perpetuidade</td><td style="text-align:right">6,0%</td><td style="text-align:right">6,0%</td></tr>
+<tr><td>Alvo dez/2026, sem Fistel (R$)</td><td style="text-align:right">33,74 (-6,0%)</td><td style="text-align:right">25,98 (+22,5%)</td></tr>
+<tr><td>Alvo se 50% do Fistel for pago (R$)</td><td style="text-align:right">37,38 (+4,1%)</td><td style="text-align:right">29,40 (+38,5%)</td></tr>
+<tr><td>Alvo se o Fistel continuar sem ser pago (R$)</td><td style="text-align:right">41,02 (+14,3%)</td><td style="text-align:right">32,81 (+54,6%)</td></tr>
+<tr><td>Retorno implícito no preço, só com a distribuição</td><td style="text-align:right">13,2%</td><td style="text-align:right">15,8%</td></tr>
 </table>
-<p class="nota">As premissas ainda diferem entre os dois modelos: Ke de 13,85% e crescimento de 6,0% na Vivo; 15,0% e 4,0% na TIM. Em 23/11/2026 o prefixado de 10 anos estava em 15,3% e a NTN-B longa em 7,8% real.</p>
-<p class="fonte">Fonte: modelos de Vivo (23/11/2026) e TIM (24/11/2026). Vivo: o caso sem pagamento é o dobro do efeito do caso de 50% do modelo. TIM: no caso de 50%, o passivo já acumulado segue suspenso e rendendo juros.</p>
-<aside>Dois cenários de Fistel: continua sem ser pago, ou metade passa a ser paga. O alvo sem Fistel é a base mecânica dos modelos, com a taxa toda paga. Na Vivo o cenário de 50% corta pela metade o fluxo inteiro do Fistel; na TIM só o principal novo é pago pela metade, e os juros sobre o passivo acumulado (5,1 bi no 3T26) continuam. Cerca de metade do efeito na TIM vem da perpetuidade.</aside>
-</section>
-<section id="comp-vivo" data-transition="fade">
-<p class="olho">6 · MODELO CONTRA AS CASAS · VIVO · 2026E A 2030E</p>
-<h2 class="titulo">Vivo: o modelo fica abaixo das casas em distribuição de 2027E a 2030E (9,6 bi contra 10,6 a 12,9 bi em 2030E), com Ke menor e crescimento maior que os de todas</h2>
-<img class="graf" src="img/g5_comp_vivo.png" alt="Vivo: linha do modelo contra a faixa e a média das casas, de 2026 a 2030 estimados, para EBITDA, lucro, distribuição e payout; Ke e crescimento na perpetuidade por casa">
-<p class="fonte">Casas: Itaú BBA (modelo de depois do 2T26), BBI (prévia do 3T26), BTG (depois do 2T26) e UBS (15/11/2026; EBITDA até 2028E; alvo por múltiplo, sem g). Lucro do modelo: reportado, com venda de ativos, como o das casas.</p>
-<aside>EBITDA: modelo abaixo da faixa de 2026E a 2029E e no topo em 2030E (32,6 bi contra 32,4 a 32,5 bi). Lucro: dentro da faixa até 2028E e abaixo em 2029E e 2030E (10,9 bi contra 10,9 a 12,2 bi). Distribuição: 8,5 bi em 2027E contra 8,9 a 10,1 bi; 9,6 bi em 2030E contra 10,6 a 12,9 bi. Payout do modelo perto de 88% de 2027E em diante, contra 95% a 111% nas casas. Ke: 13,85% contra 14,55% a 17,50%. Crescimento na perpetuidade: 6,0% contra 3,5% a 5,0%.</aside>
-</section>
-<section id="comp-tim" data-transition="fade">
-<p class="olho">6 · MODELO CONTRA AS CASAS · TIM · 2026E A 2030E</p>
-<h2 class="titulo">TIM: o modelo passa das casas em EBITDA e lucro de 2028E em diante (lucro de 6,6 bi em 2030E contra 5,8 a 6,2 bi), mas distribui menos do lucro</h2>
-<img class="graf" src="img/g5_comp_tim.png" alt="TIM: linha do modelo contra a faixa e a média das casas, de 2026 a 2030 estimados, para EBITDA, lucro, distribuição e payout; Ke e crescimento na perpetuidade por casa">
-<p class="fonte">Casas: Itaú BBA (modelo de depois do 3T26), BBI (prévia do 3T26) e BTG (antes do 3T26). Lucro do modelo: recorrente. A faixa larga da distribuição de 2026E vem do BBI, que iguala a distribuição ao fluxo de caixa do acionista.</p>
-<aside>EBITDA: dentro da faixa em 2026E e 2027E e acima de 2028E a 2030E (17,6 bi contra 17,1 a 17,2 bi). Lucro: abaixo em 2026E (4,1 bi contra 4,3 a 4,4 bi) e acima em 2029E e 2030E. Distribuição: 5,0 bi em 2027E contra 5,3 a 6,2 bi; dentro da faixa de 2028E a 2030E. Payout do modelo cai de 134% em 2026E para 88% em 2030E; nas casas, de 90% a 101% em 2030E. Ke: 15,0%, dentro de 14,22% a 16,50%. Crescimento na perpetuidade: 4,0%, no topo de 3,0% a 4,0%.</aside>
+<p class="nota">Casas: Ke de 14,2% a 17,5% e crescimento de 3,0% a 5,0%, com inflação de longo prazo de 4,0%. Na TIM, o lucro cresce 4% ao ano de 2032E a 2034E, abaixo dos 6% da perpetuidade.</p>
+<p class="fonte">Fonte: modelos de Vivo e TIM de 24/11/2026. Cenário de 50%: metade do fluxo do Fistel (despesa e juros) deixa de acumular. Vivo: o caso sem pagamento é o dobro do efeito do caso de 50%. Na TIM, 57% do efeito do Fistel vem da perpetuidade.</p>
+<aside>O alvo sem Fistel é a base mecânica dos modelos, com a taxa toda paga. A TIM passou a usar o mesmo custo de capital e o mesmo crescimento da Vivo (antes 15,0% e 4,0%), e o alvo sem Fistel foi de 21,05 para 25,98. Efeito do Fistel por ação: Vivo 3,64 com metade paga e 7,28 sem pagar; TIM 3,41 e 6,83. Retorno implícito com venda de ativos e metade do Fistel na Vivo: 14,2%. Múltiplo de Gordon: Vivo 11,3 vezes o lucro e TIM 10,6 vezes; a tabela de P/E em 12 meses dos modelos agora converge para esses números.</aside>
 </section>
 </div>
 <div id="notas"></div>
