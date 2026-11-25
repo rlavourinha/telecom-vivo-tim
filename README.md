@@ -1,3 +1,3 @@
 # Telecom Brasil: Vivo e TIM
 
-Deck de telecom (v7.5 · 25/11/2026 13:12): o setor contra a inflação e o PIB, receita, margem, EBITDA, capex e arrendamento, lucro, payout, Fistel e valuation de Vivo e TIM.
+Deck de telecom (v7.6 · 25/11/2026 13:17): o setor contra a inflação e o PIB, receita, margem, EBITDA, capex e arrendamento, lucro, payout, Fistel e valuation de Vivo e TIM.
